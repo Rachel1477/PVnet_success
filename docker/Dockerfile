@@ -66,7 +66,7 @@ ENV PATH=/opt/conda/envs/pvnet/bin:/opt/conda/bin:$PATH
 
 # installing PVnet dependencies (and removing pvnet again)
 RUN cd /opt && \
-    git clone https://github.com/zju3dv/clean-pvnet.git pvnet && \
+    git clone https://github.com/Rachel1477/PVnet_success.git pvnet && \
     cd pvnet && \
     # 使用 bash -c 来执行包含 conda activate 的命令序列
     # 确保 conda 环境在 RUN 指令的子 shell 中被正确激活
